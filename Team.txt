@@ -1,3 +1,7 @@
 Leader  : Untung Gumelar
-Staff   : -
-Project : -
+Project : Catatan
+
+Semua Sintaksis dasar bahasa pemrograman terdiri dari :
+1. Sekuensial   : Langkah berurutan
+2. Percabangan  : Langkah melompat ketika kondisi terpenuhi
+3. Perulangan   : Langkah mengulang yang sama berkali-kali selama/sampai kondisi terpenuhi
