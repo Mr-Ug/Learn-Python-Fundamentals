@@ -2,7 +2,7 @@
 # Variable
 
 # Variabel      = tempat untuk penyimpanan keterangan informasi
-# Assignment    = operator untuk memasukkan suatu nilai ke dalam variabel, terdapat 11 operator assignment
+# Assignment    = operator untuk memberi nilai kepada suatu variabel.
 # literal       = notasi untuk mewakili nilai tetap dalam variabel atau sebagai nilai mentah yang diberikan dalam variabel.
 
 
