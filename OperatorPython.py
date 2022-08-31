@@ -178,20 +178,33 @@ print(f'Kebalikan dari SALAH (FALSE) adalah BENAR / ({not(False)})')
 # id() untuk menampilkan nilai memori
 # terdapat 2 jenis operator identitas di Python, yaitu IS dan IS NOT.
 
-iS1 = 3
-iS2 = 3
+nilai1 = 3
+nilai2 = 3
+print("Operator Identity---------------------------------------------------------------------------------------------")
 
-print(id(iS1))
-print(id(iS2))
-print(f'is = Jika nilai 1 dan nilai 2 berisi nilai yang sama maka hasilnya BENAR ({iS1 is iS2})')
-print(f'is not = Jika nilai 1 dan nilai 2 berisi nilai yang sama maka hasilnya SALAH ({iS1 is not iS2})')
+print("IS------------------------------------------------------------------------------------------------------------")
+
+print(f'is = Jika nilai 1 dan nilai 2 berisi nilai sama maka hasilnya BENAR ({nilai1 is nilai2})')
+
+print("IS NOT--------------------------------------------------------------------------------------------------------")
+
+print(f'is not = Jika nilai 1 dan nilai 2 berisi nilai sama maka hasilnya SALAH ({nilai1 is not nilai2})')
 
 #======================================================================================================================#
 
 # Operator Keanggotaan
+# Operator keanggotaan dalam python hanya memiliki dua varian, yaitu "in" dan "not in".
+# Mencari nilai di suatu variabel, jika terdapat nilai yang sama. maka TRUE jika tidak maka "FALSE"
 
-#======================================================================================================================#
+var = [1, 2, 3, 4, 5]
+print("Operator Keanggotaan------------------------------------------------------------------------------------------")
 
-# Operator Bitwise
+print("IN------------------------------------------------------------------------------------------------------------")
+
+print(f'apakah benar ada nilai 2 di {var}? BENAR / {2 in var}')
+
+print("NOT IN--------------------------------------------------------------------------------------------------------")
+
+print(f'apakah benar ada nilai 2 di {var}? SALAH / {2 not in var}')
 
 #======================================================================================================================#
