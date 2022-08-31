@@ -87,7 +87,7 @@ print(f'5 *= 3 sama artinya dengan {e1} = 5 x 3')
 # Perpangkatan / Eksponen,
 c1 = 3
 c1 **= 2
-print(f'3 *= 2 sama artinya dengan {c1} = 3 x 3 x 3')
+print(f'3 **= 2 sama artinya dengan {c1} = 3 x 3 x 3')
 
 #======================================================================================================================#
 
@@ -127,10 +127,64 @@ print(f'4 -= 2 sama artinya dengan {e1} = 4 - 2')
 #======================================================================================================================#
 
 # Operator Logika
+# operator logika untuk melakukan operasi data boolean.
+# terdapat 3 jenis operator logika di Python, yaitu AND, OR, dan NOT.
+
+#======================================================================================================================#
+
+# Operator AND pada python dapat dilakukan menggunakan function "and",
+# Nilai kebenaran operator AND adalah benar ketika kedua operand bernilai benar.
+
+print("Operator Logika---------------------------------------------------------------------------------------------")
+
+#======================================================================================================================#
+
+print("AND------------------------------------------------------------------------------------------------------------")
+
+print(f'Jika BENAR (TRUE) DAN BENAR (TRUE) bertemu hasilnya pun akan BENAR / {True and True}')
+print(f'Jika BENAR (TRUE) DAN SALAH (FALSE) bertemu hasilnya pun akan SALAH / {True and False}')
+print(f'Jika SALAH (FALSE) DAN BENAR (TRUE) bertemu hasilnya pun akan SALAH / {False and True}')
+print(f'Jika SALAH (FALSE) DAN SALAH (FALSE) bertemu hasilnya pun akan SALAH / {False and False}')
+
+#======================================================================================================================#
+
+print("OR-------------------------------------------------------------------------------------------------------------")
+
+# Operator OR pada python dapat dilakukan menggunakan function "or",
+# Operator OR mempunyai nilai kebenaran salah saat kedua operand bernilai salah.
+
+print(f'Jika BENAR (TRUE) ATAU BENAR (TRUE) bertemu hasilnya pun akan BENAR / {True or True}')
+print(f'Jika BENAR (TRUE) ATAU SALAH (FALSE) bertemu hasilnya pun akan BENAR / {True or False}')
+print(f'Jika SALAH (FALSE) ATAU BENAR (TRUE) bertemu hasilnya pun akan BENAR / {False or True}')
+print(f'Jika SALAH (FALSE) ATAU SALAH (FALSE) bertemu hasilnya pun akan SALAH / {False or False}')
+
+#======================================================================================================================#
+
+print("NOT------------------------------------------------------------------------------------------------------------")
+
+# Operator NOT merupakan operator yang menghasilkan nilai kebalikan dari operand.
+# Misalkan operand X bernilai True, maka NOT X akan bernilai False.
+
+print(f'Kebalikan dari BENAR (TRUE) adalah SALAH / ({not(True)})')
+print(f'Kebalikan dari SALAH (FALSE) adalah BENAR / ({not(False)})')
 
 #======================================================================================================================#
 
 # Operator Identity
+# Operator identitas digunakan untuk membandingkan objek, bukan jika mereka sama,
+# tetapi jika mereka sebenarnya adalah objek yang sama, dengan lokasi memori yang sama:
+
+# is : Hanya menilai "objek dari lokasi memori" sama (TRUE) atau tidak (FALSE)
+# id() untuk menampilkan nilai memori
+# terdapat 2 jenis operator identitas di Python, yaitu IS dan IS NOT.
+
+iS1 = 3
+iS2 = 3
+
+print(id(iS1))
+print(id(iS2))
+print(f'is = Jika nilai 1 dan nilai 2 berisi nilai yang sama maka hasilnya BENAR ({iS1 is iS2})')
+print(f'is not = Jika nilai 1 dan nilai 2 berisi nilai yang sama maka hasilnya SALAH ({iS1 is not iS2})')
 
 #======================================================================================================================#
 
